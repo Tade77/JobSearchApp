@@ -1,0 +1,14 @@
+.inputs {
+  @apply mx-auto items-center justify-center p-10;
+
+  &--select {
+    @apply space-x-6 pb-[30px];
+  }
+
+  &--selects {
+    @apply bg-[#F5F5F5] w-[277px] h-[60px];
+  }
+}
+.desc--text {
+  @apply w-[488px] h-[64px] leading-[32px] font-normal text-[#00717D] mt-[35px] mb-[35px];
+}

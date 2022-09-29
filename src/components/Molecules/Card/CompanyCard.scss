@@ -1,0 +1,21 @@
+.card {
+  @apply mx-auto flex w-[964px] h-[623px] mb-[106px] border;
+}
+.aside {
+  @apply space-x-[77.5px] mt-10;
+}
+.btnMore {
+  @apply w-[262px] h-[60px] rounded-[5px] mt-[22px];
+}
+.article {
+  @apply w-[600px] h-[96px] mt-20 ml-10;
+}
+.roleText {
+  @apply text-[#00717D] text-[34px] font-medium;
+}
+.hStyle {
+  @apply text-[24px] leading-[24px] text-[#00717D] font-medium mb-[10px] mt-[10px];
+}
+.pStyle {
+  @apply leading-[22px] font-normal text-[#424242] mr-[20px];
+}

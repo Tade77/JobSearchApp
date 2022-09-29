@@ -1,0 +1,28 @@
+.Footer {
+  @apply bg-[#00717D] flex flex-col text-[#539fa7] font-normal
+  py-8;
+  &--1 {
+    @apply flex justify-around;
+  }
+}
+h1 {
+  @apply font-medium text-[#FFFFFF] text-xl;
+}
+.social_icons {
+  @apply m-[45px] flex flex-row;
+  & > img {
+    @apply p-2;
+  }
+  &_copy {
+    @apply flex justify-between items-center;
+  }
+  &_svgs {
+    @apply flex justify-end m-10;
+  }
+  &_svgs > a {
+    @apply p-[10px];
+  }
+}
+.copyright {
+  @apply font-medium text-[18px] ml-[107px];
+}

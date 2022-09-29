@@ -1,0 +1,10 @@
+.topNews {
+  @apply container mx-auto border border-red-600 flex flex-row justify-between ml-[90px];
+
+  &_svg {
+    @apply w-[393px] h-[128px] mt-[183px];
+  }
+  &_info {
+    @apply w-[466px] h-[283px] bg-[#00717D] text-white mr-[217px] mt-[100px] h-[100%] px-10 pb-[38px] pt-[24px];
+  }
+}

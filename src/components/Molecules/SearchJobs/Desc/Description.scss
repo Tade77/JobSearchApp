@@ -1,0 +1,10 @@
+.top {
+  @apply flex flex-row mx-auto my-auto mt-20;
+
+  &--jobs {
+    @apply mx-auto;
+  }
+}
+.lowerText {
+  @apply w-[1128px] h-[144px] ml-24 text-[#00717D];
+}
