@@ -19,11 +19,16 @@ const NewsCard = ({
   experience,
 }) => {
   return (
-    <section>
-      <div>
-        <h1 className="text-black">{jobTitle}</h1>
+    <section className=" w-[1257px] h-[449px] border bg-red-500 mx-auto flex flex-col justify-between">
+      <div className="">
+        <p>{jobTitle}</p>
         <p>{location}</p>
         <p>{position}</p>
+        <div>
+          <p>{name}</p>
+          <p>{specialization}</p>
+          <p>{address}</p>
+        </div>
       </div>
     </section>
   );
