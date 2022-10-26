@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../Atom/Button/Logo";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Button from "../../Atom/Button/Button";
 import "./Nav.scss";
 
@@ -34,7 +34,9 @@ const NavBar = () => {
   ];
   return (
     <nav className="nav--items">
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
       <p className="spacer"></p>
       <div className="nav--labels">
         {navitems.map((navitem, Index) => (

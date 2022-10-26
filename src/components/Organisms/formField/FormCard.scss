@@ -1,0 +1,9 @@
+.contact--info {
+  @apply bg-[#FFFFFF] w-[1003px] h-[592px] border mx-auto mb-[87px];
+}
+.header--text {
+  @apply pt-[39px] mb-[45.83px] ml-[58px] text-[32px] font-medium text-[#424242];
+}
+.contact--form {
+  @apply flex flex-col space-y-[24px] outline-none border-none;
+}

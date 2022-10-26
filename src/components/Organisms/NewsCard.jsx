@@ -1,5 +1,11 @@
 import React from "react";
 import { newsData } from "../Atom/newsData";
+import Button from "../Atom/Button/Button";
+import "./NewCard.scss";
+import { Link } from "react-router-dom";
+import CardHeader from "../Molecules/CardHeader";
+import ShareBtn from "../Molecules/ShareBtn";
+import LogoSummary from "../Molecules/LogoSummary";
 const NewsCard = ({
   id,
   jobTitle,
@@ -19,16 +25,31 @@ const NewsCard = ({
   experience,
 }) => {
   return (
-    <section className=" w-[1257px] h-[449px] border bg-red-500 mx-auto flex flex-col justify-between">
-      <div className="">
-        <p>{jobTitle}</p>
-        <p>{location}</p>
-        <p>{position}</p>
-        <div>
-          <p>{name}</p>
-          <p>{specialization}</p>
-          <p>{address}</p>
-        </div>
+    <section className="cardWrapper ">
+      <div>
+        <CardHeader
+          jobTitle={jobTitle}
+          location={location}
+          position={position}
+          standPoint={standPoint}
+          remuneration={remuneration}
+          duration={duration}
+          name={name}
+          specialization={specialization}
+          address={address}
+        />
+      </div>
+      <hr />
+      <div>
+        <LogoSummary
+          id={id}
+          logo={logo}
+          summary={summary}
+          description={description}
+          qualification={qualification}
+          level={level}
+          experience={experience}
+        />
       </div>
     </section>
   );

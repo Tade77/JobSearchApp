@@ -4,6 +4,7 @@ import Description from "../../components/Molecules/SearchJobs/Desc/Description"
 import PageLayout from "../../components/Template/Layout/PageLayout";
 import { companyInfos } from "../../components/Atom/Info";
 import Button from "../../components/Atom/Button/Button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
       {companyInfos.map((info) => (
         <CompanyCard key={info.id} {...info} />
       ))}
-      <Button label="More Update" outline="outline" />
+      <Link to={`News`}>
+        <Button label="More Update" outline="outline" />
+      </Link>
     </PageLayout>
   );
 };

@@ -1,0 +1,42 @@
+.cardWrapper {
+  @apply w-[1257px] h-[449px] border rounded-[10px] mx-auto mt-[153px] mb-[60px];
+}
+
+.jobInfo {
+  @apply mx-auto flex flex-row justify-between mb-[17px] mt-[40px] mx-[40px];
+
+  &_recInfo {
+    @apply flex flex-row space-x-8 text-[20px] text-[#666666] font-normal;
+  }
+}
+.job_title {
+  @apply text-[32px] text-[#00717D];
+
+  &_location {
+    @apply text-[20px] text-[#666666] font-normal;
+  }
+}
+.name {
+  @apply font-bold text-[24px] leading-[29.3px] text-[#424242];
+}
+.spec {
+  @apply text-[20px] text-[#666666] font-normal;
+}
+.address {
+  @apply text-[20px] text-[#666666] font-normal;
+}
+.infoCard {
+  @apply mt-[30px] flex flex-row space-x-[47px];
+}
+.logo {
+  @apply h-[193px] w-[193px] ml-[40px];
+}
+.summary {
+  @apply font-medium text-[24px] text-[#00717D];
+}
+.description {
+  @apply w-[969px] h-[96px] leading-[32px] pr-[130px];
+}
+.info {
+  @apply flex flex-row justify-between mt-[31px];
+}

@@ -1,0 +1,16 @@
+.companyInfo {
+  @apply ml-[206px] mt-[141px];
+
+  &_name {
+    @apply text-[58.67px] font-bold leading-[72px] text-[#424242];
+  }
+  &_address {
+    @apply text-[44px] font-normal leading-[52px] text-[#666666];
+  }
+  &_spec {
+    @apply text-[44px] font-normal leading-[72px] text-[#424242];
+  }
+  &_title {
+    @apply text-[58px] leading-[60px] text-[#00717D] mt-[23.8px] mb-[64px] ml-4;
+  }
+}

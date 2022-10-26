@@ -1,10 +1,13 @@
 .topNews {
-  @apply container mx-auto border border-red-600 flex flex-row justify-between ml-[90px];
+  @apply container mt-16 mx-auto border flex flex-row justify-between;
 
   &_svg {
-    @apply w-[393px] h-[128px] mt-[183px];
+    @apply w-[393px] h-[128px] mt-[183px] ml-10;
   }
   &_info {
-    @apply w-[466px] h-[283px] bg-[#00717D] text-white mr-[217px] mt-[100px] h-[100%] px-10 pb-[38px] pt-[24px];
+    @apply w-[466px] h-[283px] bg-[#00717D] text-white mr-[117px] mt-[100px] h-[100%] px-10 pb-[38px] pt-[24px];
   }
+}
+.header {
+  @apply font-bold text-[24px] leading-[58px];
 }

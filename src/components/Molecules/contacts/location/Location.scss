@@ -1,0 +1,14 @@
+.location {
+  @apply w-[466px] h-[258px] rounded-[10px] my-[88px] bg-[#00717D];
+
+  &--header {
+    @apply text-[24px] font-bold text-white p-[20px];
+  }
+
+  &--desc {
+    @apply px-[31.5px] space-x-6 flex flex-row text-white mr-[30px];
+  }
+  &--contactor {
+    @apply text-white px-[85px] mt-[15px] text-[10px];
+  }
+}

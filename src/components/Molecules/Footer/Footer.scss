@@ -9,7 +9,7 @@ h1 {
   @apply font-medium text-[#FFFFFF] text-xl;
 }
 .social_icons {
-  @apply m-[45px] flex flex-row;
+  @apply flex flex-row;
   & > img {
     @apply p-2;
   }
@@ -17,7 +17,7 @@ h1 {
     @apply flex justify-between items-center;
   }
   &_svgs {
-    @apply flex justify-end m-10;
+    @apply flex justify-end;
   }
   &_svgs > a {
     @apply p-[10px];

@@ -1,6 +1,6 @@
 import React from "react";
 import Text from "../../../Atom/AllText/Text";
-import JobLogo from "../../../Atom/JobLogo";
+import JobLogo from "../../JobLogo";
 import InputGroup from "../InputItem/InputGroup";
 import "./Description.scss";
 const Description = () => {
@@ -8,7 +8,7 @@ const Description = () => {
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quamrecusandae consequatur aperiam, quia eos, laboriosam officiis obcaecatimolestiae magni rem, possimus numquam ut soluta delectus laborum liberoexercitationem cupiditate. Quibusdam totam eveniet necessitatibusobcaecati eligendi laudantium dolorum et repudiandae, harum expeditatempora eaque laborum enim culpa ut, temporibus, illo odit quod atdignissimos ad id quia ipsum beatae.";
   return (
     <div>
-      <div className=" top">
+      <div className="top">
         <div className="top--jobs">
           <JobLogo />
         </div>

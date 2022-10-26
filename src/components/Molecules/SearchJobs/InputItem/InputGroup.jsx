@@ -6,7 +6,7 @@ import "./InputGroup.scss";
 const InputGroup = () => {
   return (
     <div className="inputs ">
-      <aside className="inputs--select">
+      <aside className="inputs--select ">
         <Inputs name="company" inputStyle="inputStyle" />
         <select name="filter" className="inputs--selects">
           <option value="management">Management</option>
